@@ -2,6 +2,17 @@
 
 Tips for working with Tauri using an Angular front-end.
 
+## Setting up tauri.conf.json
+
+```json
+"build": {
+    "beforeBuildCommand": "npm run build",
+    "beforeDevCommand": "npm run start",
+    "devPath": "http://localhost:4200",
+    "distDir": "../dist/example"
+  },
+```
+
 ## Creating a Window
 
 1. Add the window info to your `angular.json` file
