@@ -15,7 +15,7 @@ Tips for working with Tauri using an Angular front-end.
 
 ## Creating a Window
 
-1. Add the window info to your `angular.json` file
+* Add the window info to your `angular.json` file
 
 ```json
 "assets": [
@@ -29,7 +29,7 @@ Tips for working with Tauri using an Angular front-end.
 ],
 ```
 
-2. To use tailwind styles, you must add the link to the `styles.css` file.
+* To use tailwind styles, you must add the link to the `styles.css` file.
 
 ```html
 <link rel="stylesheet" href="/styles.css" />
@@ -39,7 +39,7 @@ Tips for working with Tauri using an Angular front-end.
 </div>
 ```
 
-3. Import the Tauri windows API
+* Import the Tauri windows API
 
 ```javascript
 import { WebviewWindow } from '@tauri-apps/api/window';
