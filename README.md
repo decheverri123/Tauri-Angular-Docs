@@ -2,7 +2,7 @@
 
 Tips for working with Tauri using an Angular front-end.
 
-## Setting up tauri.conf.json
+## Setting up tauri.conf.json for bundle building
 
 ```json
 "build": {
