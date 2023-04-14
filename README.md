@@ -9,7 +9,7 @@ Tips for working with Tauri using an Angular front-end.
     "beforeBuildCommand": "npm run build",
     "beforeDevCommand": "npm run start",
     "devPath": "http://localhost:4200",
-    "distDir": "../dist/example"
+    "distDir": "../dist/your-app"
   },
 ```
 
