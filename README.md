@@ -4,12 +4,26 @@ Tips for working with Tauri using an Angular front-end.
 
 ## Setting up tauri.conf.json for bundle building
 
+For npm:
+
 ```json
 "build": {
     "beforeBuildCommand": "npm run build",
     "beforeDevCommand": "npm run start",
     "devPath": "http://localhost:4200",
     "distDir": "../dist/your-app"
+  },
+```
+
+For yarn:
+
+```json
+"build": {
+    "beforeDevCommand": "yarn start --port 1420",
+    "beforeBuildCommand": "yarn build",
+    "devPath": "http://localhost:1420",
+    "distDir": "../dist/tauri-pomodoro",
+    "withGlobalTauri": false
   },
 ```
 
